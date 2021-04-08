@@ -4,7 +4,7 @@ A hexifier module for Python 3+
 # INSTALLATION
 
 ```
-pip install git+https://github.com/9u3/hexifier/
+pip3 install git+https://github.com/9u3/hexifier/
 ```
 
 # USAGE
