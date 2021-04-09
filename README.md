@@ -10,6 +10,7 @@ pip3 install git+https://github.com/9u3/hexifier/
 # USAGE
 
 ```py
+import hexifier
 hexi = hexifier()
 
 print(hexi.rgbify("7FAA11")) # rgbify explicitly reqiures a string.
