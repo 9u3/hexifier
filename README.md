@@ -11,7 +11,7 @@ pip3 install git+https://github.com/9u3/hexifier/
 
 ```py
 import hexifier
-hexi = hexifier()
+hexi = hexifier.hexifier()
 
 print(hexi.rgbify("7FAA11")) # rgbify explicitly reqiures a string.
 print(hexi.hexify((123,123,123))) # hexify explicity requires a tuple.
