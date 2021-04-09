@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
   name = 'hexifier',
   packages = ['hexifier'],
-  version = '1.03',
+  version = '1.04',
   license='MIT',
   description = 'hex2rgb / rgb2hex',
   author = 'Nox Protogen',
