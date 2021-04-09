@@ -22,6 +22,8 @@ class hexifier:
             return f"Conversion Failed.\n'{color}' is not a tuple."
         elif len(color) > 3:
             return f"Conversion Failed.\nMore than 3 values"
+        elif len(color) < 3:
+            return f"Conversion Failed.\nLess than 3 values"
         else:
             hexres = ""
             try:
