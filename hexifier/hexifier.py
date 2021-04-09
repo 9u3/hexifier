@@ -17,7 +17,7 @@ class hexifier:
         h = rep(self, h, hx)
         ret.append(h["replaced"])
         h1 = rep(self, h["replaced"], h["hex"])
-        ret.append(h1["replaced"].replace(h1["replaced"][:3], "", 1))
+        ret.append(h1["replaced"].replace(h1["replaced"][:1], "", 1))
         h2 = rep(self, h1["replaced"], h1["hex"])
         ret.append(h2["replaced"].replace(h1["replaced"][:6], "", 1))
         return ", ".join(n for n in ret)
