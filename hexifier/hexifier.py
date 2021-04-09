@@ -2,7 +2,7 @@ hexcol = {'00': '0', '01': '1', '02': '2', '03': '3', '04': '4', '05': '5', '06'
 
 class hexifier:
     def __version__(self):
-        return "1.03"
+        return "1.04"
     def __hex_color__(self):
         return hexcol
     
