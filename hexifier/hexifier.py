@@ -2,7 +2,7 @@ hexcol = {'00': '0', '01': '1', '02': '2', '03': '3', '04': '4', '05': '5', '06'
 
 class hexifier:
     def __version__(self):
-        return "1.04"
+        return "1.06"
     def __hex_color__(self):
         return hexcol
     
@@ -17,7 +17,7 @@ class hexifier:
         h = rep(self, h, hx)
         ret.append(h["replaced"])
         h1 = rep(self, h["replaced"], h["hex"])
-        ret.append(h1["replaced"].replace(h1["replaced"][:2], "", 1))
+        ret.append(h1["replaced"].replace(h1["replaced"][:3], "", 1))
         h2 = rep(self, h1["replaced"], h1["hex"])
         ret.append(h2["replaced"].replace(h1["replaced"][:6], "", 1))
         return ", ".join(n for n in ret)
